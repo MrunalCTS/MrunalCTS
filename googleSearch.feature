@@ -11,3 +11,19 @@ Feature: Google Searching
   Scenario: Simple Google search for elephants
     When the search phrase "elephant" is entered
     Then results for "elephant" are shown
+
+  Scenario: Simple Google search for birds
+    When the search phrase "bird" is entered
+    Then results for "bird" are shown
+
+  Scenario: Simple Google search for parrots
+    When the search phrase "parrot" is entered
+    Then results for "parrot" are shown
+
+  Scenario: Simple Google search for eagles
+    When the search phrase "eagle" is entered
+    Then results for "eagle" are shown
+
+  Scenario: Simple Google search for hyena
+    When the search phrase "hyena" is entered
+    Then results for "hyena" are shown
